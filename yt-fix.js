@@ -1,5 +1,4 @@
 const swap = () => {
-	document.querySelector("ytd-player").remove();
 	const playerContainer = document.querySelector("#player");
 	playerContainer.innerHTML = '';
 	const iframe = document.createElement("iframe");
