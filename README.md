@@ -1,0 +1,1 @@
+# yt-fix-crimea-firefox
