@@ -26,6 +26,11 @@ if (window.location.pathname === "/watch") {
 	button.style.cursor = 'pointer';
 
 	button.addEventListener('click', () => swap());
+	document.body.addEventListener('keyup', (event) => {
+		if (event.code === "KeyR") {
+			swap();
+		}
+	});
 
 	document.body.appendChild(button);
 }
