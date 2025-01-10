@@ -6,7 +6,7 @@ const swap = () => {
 	iframe.src="https://www.youtube.com/embed/"+window.location.search.substring(3).split("&")[0]+"?autoplay=1";
 	iframe.allow='autoplay';
 	iframe.style.height='100%';
-	iframe.style.minHeight="720px";
+	iframe.style.minHeight="40vw";
 	iframe.style.width='100%';
 	playerContainer.append(iframe);
 }
