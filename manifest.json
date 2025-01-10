@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "yt-fix",
+  "version": "1.0",
+
+  "description": "Fixes video playback for Crimea",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["yt-fix.js"]
+    }
+  ]
+}
